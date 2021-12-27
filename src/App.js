@@ -1,10 +1,11 @@
 import React from 'react'
+import AppBarMain from './components/AppBarMain';
 
 const App = () => {
     return (
-        <div>
-            
-        </div>
+        <React.Fragment>
+            <AppBarMain />
+        </React.Fragment>
     )
 }
 
