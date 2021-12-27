@@ -1,7 +1,7 @@
 # Eventogenic
 > Frontend
 
-##This is the official frontend repository of Eventogenic Application
+## This is the official frontend repository of Eventogenic Application
 
 ### `npm install`
 Use `npm install` to install all the dependencies of the project
