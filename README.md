@@ -1,4 +1,5 @@
-![pixel-mockup](https://user-images.githubusercontent.com/72543788/147849369-84b43f02-5dbd-4d0c-a566-fcda6dfb0c41.png)
+  ![pixel-mockup (1)](https://user-images.githubusercontent.com/72543788/147849457-af9737aa-baf4-4dae-9e6f-f43633d1a2e0.png)
+
 
 # Eventogenic
 > Frontend
