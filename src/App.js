@@ -10,7 +10,7 @@ const App = () => {
     <ThemeProvider theme={Theme}>
       <React.Fragment>
         <AppBarMain />
-        {btnStatus && <FloatingActionButton />}
+        <FloatingActionButton />
       </React.Fragment>
     </ThemeProvider>
   );
