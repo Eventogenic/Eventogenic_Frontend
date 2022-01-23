@@ -5,7 +5,6 @@ import { Theme } from "./constants/Theme";
 import FloatingActionButton from "./components/asides/FloatingActionButton";
 
 const App = () => {
-  
   return (
     <ThemeProvider theme={Theme}>
       <React.Fragment>
