@@ -19,6 +19,12 @@ export const userSlice = createSlice({
       state.userType = action.userType;
       state.collegeId = action.collegeId;
     },
+    setSignout: (state, action) => {
+      state.userName = null;
+      state.userEmail = null;
+      state.userType = null;
+      state.collegeId = null;
+    },
   },
 });
 
