@@ -35,7 +35,7 @@ const AppBarMain = () => {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor:'#152A3C', cursor: 'pointer'}}>
+    <AppBar position="static" sx={{backgroundColor:'#152A3C', cursor: 'pointer', position: 'fixed'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
