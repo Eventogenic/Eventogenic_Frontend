@@ -1,12 +1,6 @@
-import {
-  Button,
-  Container,
-  Stack,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Button, Container, Stack, TextField, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import { makeStyles } from "@mui/styles";
 
 const useStyle = makeStyles({
@@ -20,6 +14,9 @@ const useStyle = makeStyles({
 
 const Login = () => {
   const classes = useStyle();
+  useEffect(() => {
+    document.body.style.overflowY = "hidden";
+  });
   return (
     <Fragment>
       <div style={{ backgroundColor: "#f7f7f7" }}>
@@ -39,11 +36,11 @@ const Login = () => {
               sx={{
                 padding: 5,
                 backgroundColor: "#fff",
-                marginTop: 5,
+                marginTop: 15,
                 borderRadius: 2,
               }}
             >
-              <Stack spacing={3}>
+              <Stack spacing={2}>
                 <Typography variant="h4" align="center">
                   Login
                 </Typography>
@@ -52,6 +49,8 @@ const Login = () => {
                 <Button variant="contained" className={classes.button}>
                   LOGIN
                 </Button>
+                <Button sx={{ padding: 0 }}>Signup</Button>
+                <Button sx={{ padding: 0 }}>Forgot Password</Button>
               </Stack>
             </Box>
           </div>
